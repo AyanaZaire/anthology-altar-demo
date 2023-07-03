@@ -1,0 +1,119 @@
+body {
+    background-color: #C48A47;
+    scroll-behavior: smooth;
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 1.5;
+}
+
+.navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid 1px black;
+}
+
+.intro-section {
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: small;
+    border-bottom: 1px solid black;
+}
+
+.title {
+    color: #6BD66B;
+    font-weight: 100;
+    filter: drop-shadow(0 0 0.75rem #7d12ff);
+    margin: 10px;
+    font-size: xx-large;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.navbar li {
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: small;
+}
+
+a {
+    color: #6BD66B;
+}
+  
+a:hover {
+    filter: drop-shadow(0 0 0.75rem #7d12ff);
+}
+
+.navbar p {
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    font-size: x-small;
+    text-transform: uppercase;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.form-divs {
+    display: flex;
+}
+
+label {
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    width: 400px;
+    border-radius: 17px;
+}
+
+input[type="submit"] {
+    width: 510px;
+    border:#6BD66B solid 1px;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+header {
+    color: #6BD66B;
+    font-size: xx-large;
+    font-family: 'Cormorant Garamond', serif;
+    filter: drop-shadow(0 0 0.75rem #7d12ff);
+    border:  #6BD66B 1px solid;
+    padding: 7px 14px;
+    display: inline-block;
+    margin-bottom: 15px;
+    border-radius: 30px;  
+}
