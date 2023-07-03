@@ -117,3 +117,46 @@ header {
     margin-bottom: 15px;
     border-radius: 30px;  
 }
+
+#data-sections {
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: small;
+}
+
+.data-section {
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.data-section:last-of-type {
+    margin-bottom: 30px;
+    border-bottom: 0px solid black;
+}
+
+.author {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: large;
+    margin-bottom: -15px;
+}
+
+.poet-image {
+    margin-top: 10px;
+    width: 100%;
+    border:#6BD66B solid 1px;
+}
+
+.citation {
+    margin-top: 70px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: large;
+}
+
+.citation-text {
+    margin-top: 70px;
+}
+
+.data-section p {
+    white-space: pre-line;
+}
