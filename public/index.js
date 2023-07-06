@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 function loadPoems() {
-    fetch("http://localhost:3000/poems")
+    fetch("https://anthology-altar-demo-0765f937dc7a.herokuapp.com/poems")
     .then(response => response.json())
     .then(poems => {
         poems.forEach(poem => {
@@ -78,7 +78,7 @@ function poemFormHandler() {
 }
 
 function createPoem(inputTitle, inputAuthor, inputPoem, inputSource, inputBook, inputPublisher, inputYear, inputImage) {
-    fetch("http://localhost:3000/poems", {
+    fetch("https://anthology-altar-demo-0765f937dc7a.herokuapp.com/poems", {
     method: "POST",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify({
