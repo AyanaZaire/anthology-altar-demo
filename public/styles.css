@@ -160,3 +160,44 @@ header {
 .data-section p {
     white-space: pre-line;
 }
+
+@media only screen and (max-width: 480px) {
+    .navbar ul {
+        height: 200px;
+    }
+
+    .navbar {
+        background-color: #C48A47;
+        width: 100%;
+        max-height: 275px;
+        z-index: 1;
+        border-bottom: 1px solid;
+    }
+
+    .intro-section {
+        margin-top: 270px;
+    }
+
+    #data-sections, .intro-section {
+        margin-left: 0px;
+    }
+
+    .flex-container {
+        flex-direction: row;
+    }
+
+    input, textarea {
+        margin-bottom: 10px;
+        width: 300px;
+        border-radius: 17px;
+    }
+  
+    input[type="submit"] {
+          width: 410px;
+    }
+
+    .poet-image {
+        margin-top: 10px;
+        width: 370px;
+    }
+}
